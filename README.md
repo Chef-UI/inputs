@@ -8,6 +8,14 @@ Each component has very styles, so pick that one which best fits into your proje
 
 Check the [workflow](https://github.com/orgs/Books-UI/projects) before starting you work.
 
+### Tech stack:
+- [X] React
+- [X] rollup (bundler)
+- [ ] SASS (component style)
+- [ ] Jest, react-testing-library (component testing)
+- [ ] Storybook (UI documentation)
+- [ ] prettier, eslint (code formating)
+- [ ] husky (pre commit)
 ## Components:
 
 ### Input field
