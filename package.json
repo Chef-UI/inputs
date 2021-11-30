@@ -11,7 +11,8 @@
   "module": "dist/index.esm.js",
   "scripts": {
     "prebuild": "rimraf build",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "prettier --write '**/*.js' '**/*.jsx'"
   },
   "main": "index.js",
   "repository": "https://github.com/Books-UI/inputs.git",
@@ -25,7 +26,9 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
+    "eslint": "^8.3.0",
     "node-sass": "^6.0.1",
+    "prettier": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
