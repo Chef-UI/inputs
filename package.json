@@ -12,7 +12,8 @@
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c",
-    "lint": "prettier --write '**/*.js' '**/*.jsx'"
+    "lint": "prettier --write '**/*.js' '**/*.jsx'",
+    "prepare": "husky install"
   },
   "main": "index.js",
   "repository": "https://github.com/Books-UI/inputs.git",
@@ -27,6 +28,8 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "eslint": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
     "node-sass": "^6.0.1",
     "prettier": "^2.5.0",
     "react": "^17.0.2",
