@@ -12,10 +12,10 @@ Check the [workflow](https://github.com/orgs/Books-UI/projects) before starting 
 - [X] React
 - [X] rollup (bundler)
 - [ ] SASS (component style)
-- [ ] Jest, react-testing-library (component testing)
+- [X] Jest, react-testing-library (component testing)
 - [ ] Storybook (UI documentation)
-- [ ] prettier, eslint (code formating)
-- [ ] husky (pre commit)
+- [X] prettier, eslint (code formating)
+- [X] husky (pre commit)
 ## Components:
 
 ### Input field
