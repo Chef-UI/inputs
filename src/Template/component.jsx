@@ -4,9 +4,7 @@ import React from 'react';
 import './style.scss';
 
 const Template = () => {
-    return (
-        <p className="Template">Template component</p>
-    )
-}
+	return <p className="Template">Template component</p>;
+};
 
 export default Template;
