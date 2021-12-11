@@ -7,7 +7,7 @@ import postcss from 'rollup-plugin-postcss';
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
 export default {
-	input: 'src/index.js',
+	input: 'src/components/index.js',
 	output: [
 		{
 			file: 'build/index.js',
