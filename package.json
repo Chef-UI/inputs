@@ -10,7 +10,8 @@
   ],
   "module": "dist/index.esm.js",
   "scripts": {
-    "test": "jest --collect-coverage --verbose=true --config ./jest.config.json",
+    "test:all": "jest --collect-coverage --verbose=true --config ./jest.config.json",
+    "test:watch": "jest --watch --collect-coverage --verbose=true --config ./jest.config.json",
     "stories": "export NODE_OPTIONS=--openssl-legacy-provider; start-storybook --port 9090",
     "prebuild": "rimraf build",
     "build": "rollup -c",
